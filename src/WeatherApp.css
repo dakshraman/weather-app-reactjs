@@ -1,0 +1,87 @@
+.weather-app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .chat-title {
+    font-size: 24px;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .chat-bubble {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    word-wrap: break-word;
+    max-width: 70%;
+  }
+  
+  .user {
+    align-self: center;
+    background-color: #0084FF;
+    color: white;
+  }
+  
+  .user-label {
+    font-weight: bold;
+  }
+  
+  .user-button {
+    background-color: white;
+    color: #0084FF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .user-button:hover {
+    background-color: #005fb2;
+    color: white;
+  }
+  
+  .user input {
+    border-radius: 5px; /* Adjust the value to your desired border radius */
+    padding: 5px;
+    border-width: 1px;
+  }
+/* Set the background gradient for the body element */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #c800ff, #2b00ff, #FF5E62, #FFC371);
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    animation: gradientAnimation 10s linear infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 200% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
